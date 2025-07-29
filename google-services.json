@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "978030176133",
+    "project_id": "cardsnapcrm",
+    "storage_bucket": "cardsnapcrm.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978030176133:android:a831435a8e3ddecd0746ec",
+        "android_client_info": {
+          "package_name": "com.crimax.cardsnapcrm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_stGOWopjUXvcU3k6AtjOsV71WEkYJGg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

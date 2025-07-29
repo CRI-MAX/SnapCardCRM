@@ -1,0 +1,41 @@
+name: card_snap_crm
+description: CRM app with ML Kit features
+publish_to: "none"
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ML Kit core + moduli specifici
+  google_ml_kit: ^0.20.0
+  google_mlkit_barcode_scanning: ^0.14.1
+  google_mlkit_face_detection: ^0.13.1
+  google_mlkit_text_recognition: ^0.15.0
+
+  # Utility per immagini
+  image_picker: ^1.1.2
+  path_provider: ^2.1.2
+
+  # Pacchetti richiesti dal Flutter SDK
+  characters: 1.4.0
+  material_color_utilities: 0.11.1
+  meta: 1.16.0
+  vector_math: 2.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+  # Leak tracking compatibili con flutter_test
+  leak_tracker: 10.0.9
+  leak_tracker_testing: 3.0.1
+  leak_tracker_flutter_testing: 3.0.9
+
+  # Pacchetti gestiti dal SDK (versioni pin automatiche)
+  vm_service:
+  test_api:
