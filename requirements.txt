@@ -1,0 +1,7 @@
+streamlit
+pytesseract
+pillow
+spacy
+pandas
+deep-translator
+opencv-python-headless
